@@ -99,3 +99,11 @@ theULItem.addEventListener("click", (e) => {
 
   e.target.style.backgroundColor = "#c1cfcd";
 });
+
+Array.prototype.print = () => {
+  let printed = "";
+  this.forEach((elem) => (printed += `${elem},`));
+  console.log(printed);
+};
+
+[1, 2].print();

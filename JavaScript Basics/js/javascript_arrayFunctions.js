@@ -2,8 +2,14 @@
 // We can hence access member methods and properties of any type using the following syntax
 
 let ar = [1, 2, 3, 4, 5];
-
 console.log(ar.__proto__);
+
+// ARRAY methods find(fn) vs filter(fn)
+// find returns one value which passes the condition in the function
+// filter returns an array of all values that passes the condition in the function
+
+console.log(ar.find((el) => el % 2 === 0)); // returns 2
+ar.filter((el) => el % 2 === 0).forEach((el) => console.log(el)); // returns [2,4]
 
 // Array forEach()
 

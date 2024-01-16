@@ -16,5 +16,3 @@
 - Async Await
 - Arrays and Array Functions
 - Regex
-
-### LeetCode and HackerRank problems
